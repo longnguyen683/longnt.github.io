@@ -1,0 +1,28 @@
+*{
+    max-width: 960;
+    background-color: #bebebe;
+}
+.head{
+    text-align: center;
+    padding: 10px;
+}
+
+.picture{
+    padding: 10px;
+    width: 300px;
+    border: 10px solid black;
+    display: inline-block;
+}
+
+.main-content{
+    display: flex;
+}
+
+.content-left{
+    flex-basis: 60%;
+    font-size: 20px;
+}
+
+.sidebar-right{
+    flex-basis: 40%;
+}
